@@ -1,0 +1,26 @@
+--- camstream-0.26.2/camstream/Makefile.in~	Wed May 28 11:20:35 2003
++++ camstream-0.26.2/camstream/Makefile.in	Wed May 28 11:20:35 2003
+@@ -77,8 +77,8 @@
+ 
+ install:	all
+ 	make -C icons install
+-	install --mode=0755 --directory $(BIN_DIR)
+-	install --strip camstream $(BIN_DIR)
++	install --mode=0755 --directory $(DESTDIR)$(BIN_DIR)
++	install --strip camstream $(DESTDIR)$(BIN_DIR)
+ 
+ # Default targets
+ clean:
+--- camstream-0.26.2/camstream/icons/Makefile.in~	Wed May 28 11:20:53 2003
++++ camstream-0.26.2/camstream/icons/Makefile.in	Wed May 28 11:20:53 2003
+@@ -6,8 +6,8 @@
+ BIN_DIR=@bindir@
+ 
+ install:
+-	install --mode=0755 --directory $(ICON_DIR)
++	install --mode=0755 --directory $(DESTDIR)$(ICON_DIR)
+ 	for T in *.png; do \
+-		install --mode=0644 $$T $(ICON_DIR); \
++		install --mode=0644 $$T $(DESTDIR)$(ICON_DIR); \
+ 	done
+ 
