@@ -2,12 +2,13 @@ Summary:	Digital camera utilities
 Summary(pl):	Narzêdzia do obs³ugi kamer cyfrowych
 Name:		camstream
 Version:	0.26.2
-Release:	0.1
+Release:	1
 License:	GPL
 Group:		Applications/Graphics
 # Source0-md5:	5f2f245f6c7c1255ee60a007527e2fd2
 Source0:	http://www.smcc.demon.nl/camstream/download/%{name}-%{version}.tar.gz
 Patch1:		%{name}-destdir.patch
+Patch2:		%{name}-multiline.patch
 URL:		http://www.smcc.demon.nl/camstream/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -30,6 +31,7 @@ Qt.
 %prep
 %setup -q
 %patch1 -p1
+%patch2 -p1
 
 %build
 cd lib/ccvt
