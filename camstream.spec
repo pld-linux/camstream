@@ -1,5 +1,5 @@
 Summary:	Digital camera utilities
-Summary(pl.UTF-8):   Narzędzia do obsługi kamer cyfrowych
+Summary(pl.UTF-8):	Narzędzia do obsługi kamer cyfrowych
 Name:		camstream
 Version:	0.26.3
 Release:	1
