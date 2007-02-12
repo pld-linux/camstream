@@ -1,5 +1,5 @@
 Summary:	Digital camera utilities
-Summary(pl):	Narzêdzia do obs³ugi kamer cyfrowych
+Summary(pl.UTF-8):   NarzÄ™dzia do obsÅ‚ugi kamer cyfrowych
 Name:		camstream
 Version:	0.26.3
 Release:	1
@@ -20,11 +20,11 @@ video-devices, enhancing your Linux system with multimedia video. All
 written in C++ and with a nice GUI frontend. The interface is based on
 Qt, an excellent GUI framework.
 
-%description -l pl
-CamStream jest (a w³a¶ciwie ma byæ) zestawem narzêdzi do kamer
-internetowych i innych urz±dzeñ video, rozszerzaj±cych mo¿liwo¶ci
-Linuksa o obraz multimedialny. Wszystkie narzêdzia s± napisane w C++ i
-maj± mi³y graficzny interfejs u¿ytkownika. Interfejs jest oparty na
+%description -l pl.UTF-8
+CamStream jest (a wÅ‚aÅ›ciwie ma byÄ‡) zestawem narzÄ™dzi do kamer
+internetowych i innych urzÄ…dzeÅ„ video, rozszerzajÄ…cych moÅ¼liwoÅ›ci
+Linuksa o obraz multimedialny. Wszystkie narzÄ™dzia sÄ… napisane w C++ i
+majÄ… miÅ‚y graficzny interfejs uÅ¼ytkownika. Interfejs jest oparty na
 Qt.
 
 %prep
